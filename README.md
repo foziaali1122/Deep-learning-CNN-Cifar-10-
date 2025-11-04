@@ -57,7 +57,9 @@ Each image belongs to one of the following classes:
 
 ## 💫 Author
 👩‍💻 Fozia
-📬 Data Science Enthusiast | Machine Learning Learner
+
+📬 AI and Data Science Enthusiast | Machine | Deep Learning Learner
+
 ⭐ If you like this project, don’t forget to give it a star on GitHub!
 
 
