@@ -39,23 +39,23 @@ Each image belongs to one of the following classes:
 
 ---
 
-##🚀 Training Results
--MetricTrainingValidation 
--Accuracy~85%~80%Loss↓ steadily↓ steadily
--📈 Accuracy and Loss graphs show consistent learning over 10 epochs.
+## 🚀 Training Results
+- MetricTrainingValidation 
+- Accuracy~85%~80%Loss↓ steadily↓ steadily
+- 📈 Accuracy and Loss graphs show consistent learning over 10 epochs.
 
 ---
 
 
-##📊 Visualization
--Example prediction on test data:
--Actual: Cat  
--Predicted: Cat ✅
+## 📊 Visualization
+- Example prediction on test data:
+- Actual: Cat  
+- Predicted: Cat ✅
 
 
 ---
 
-##💫 Author
+## 💫 Author
 👩‍💻 Fozia
 📬 Data Science Enthusiast | Machine Learning Learner
 ⭐ If you like this project, don’t forget to give it a star on GitHub!
