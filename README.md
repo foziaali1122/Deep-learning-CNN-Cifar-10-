@@ -12,6 +12,28 @@
 
 ---
 
+<!-- Header Banner -->
+<p align="center">
+  <img src="https://github.com/yourusername/yourrepo/raw/main/banner.png" alt="CIFAR-10 CNN Banner" width="800">
+</p>
+
+<h1 align="center">🧠 CIFAR-10 Image Classification using CNN</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python">
+  <img src="https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow">
+  <img src="https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras">
+  <img src="https://img.shields.io/badge/NumPy-Array%20Processing-lightblue?logo=numpy">
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-blue?logo=plotly">
+  <img src="https://img.shields.io/badge/Dataset-CIFAR--10-green">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
+  <img src="https://img.shields.io/badge/License-MIT-yellow">
+  <img src="https://img.shields.io/badge/Contributions-Welcome-purple">
+</p>
+
+---
+
+
 ## 📘 Project Overview
 This project demonstrates **image classification** on the **CIFAR-10 dataset** using a **Convolutional Neural Network (CNN)** built with **TensorFlow/Keras**.  
 The goal is to classify images into **10 categories**: airplane, car, bird, cat, deer, dog, frog, horse, ship, and truck.
@@ -37,21 +59,6 @@ Each image belongs to one of the following classes:
 
 ---
 
-## 🧩 Model Architecture
-A simple **Convolutional Neural Network** architecture:
-
-```python
-model = Sequential([
-    Conv2D(32, (3,3), activation='relu', input_shape=(32,32,3)),
-    MaxPooling2D((2,2)),
-    Conv2D(64, (3,3), activation='relu'),
-    MaxPooling2D((2,2)),
-    Conv2D(64, (3,3), activation='relu'),
-    Flatten(),
-    Dense(64, activation='relu'),
-
----
-
 🚀 Training Results
 MetricTrainingValidationAccuracy~85%~80%Loss↓ steadily↓ steadily
 📈 Accuracy and Loss graphs show consistent learning over 10 epochs.
@@ -62,36 +69,7 @@ Actual: Cat
 Predicted: Cat ✅
 
 
-
-🧠 Future Improvements
-
-
-Add Dropout layers to reduce overfitting
-
-
-Use Data Augmentation for better generalization
-
-
-Implement VGG16 / ResNet models for higher accuracy
-
-
-Tune hyperparameters (learning rate, batch size, etc.)
-
-
-
-🧾 How to Run
-# 1️⃣ Clone the repository
-git clone https://github.com/yourusername/CIFAR10-CNN.git
-
-# 2️⃣ Navigate to the folder
-cd CIFAR10-CNN
-
-# 3️⃣ Run the Jupyter notebook
-jupyter notebook cifar10_cnn.ipynb
-
-
-📜 License
-This project is licensed under the MIT License.
+---
 
 💫 Author
 👩‍💻 Fozia
@@ -100,12 +78,3 @@ This project is licensed under the MIT License.
 
 
 ---
-
-Would you like me to:
-- 🖼️ Add example **accuracy/loss graph placeholders**, or  
-- 🎨 Add a **GitHub profile-style header banner** (with gradient and your name)?  
-
-I can include those automatically in the markdown for you.
-
-    Dense(10, activation='softmax')
-])
