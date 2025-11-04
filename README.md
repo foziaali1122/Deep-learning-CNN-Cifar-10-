@@ -12,26 +12,6 @@
 
 ---
 
-<!-- Header Banner -->
-<p align="center">
-  <img src="https://github.com/yourusername/yourrepo/raw/main/banner.png" alt="CIFAR-10 CNN Banner" width="800">
-</p>
-
-<h1 align="center">🧠 CIFAR-10 Image Classification using CNN</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python">
-  <img src="https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow">
-  <img src="https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras">
-  <img src="https://img.shields.io/badge/NumPy-Array%20Processing-lightblue?logo=numpy">
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-blue?logo=plotly">
-  <img src="https://img.shields.io/badge/Dataset-CIFAR--10-green">
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
-  <img src="https://img.shields.io/badge/License-MIT-yellow">
-  <img src="https://img.shields.io/badge/Contributions-Welcome-purple">
-</p>
-
----
 
 
 ## 📘 Project Overview
@@ -59,19 +39,23 @@ Each image belongs to one of the following classes:
 
 ---
 
-🚀 Training Results
-MetricTrainingValidationAccuracy~85%~80%Loss↓ steadily↓ steadily
-📈 Accuracy and Loss graphs show consistent learning over 10 epochs.
+##🚀 Training Results
+-MetricTrainingValidation 
+-Accuracy~85%~80%Loss↓ steadily↓ steadily
+-📈 Accuracy and Loss graphs show consistent learning over 10 epochs.
 
-📊 Visualization
-Example prediction on test data:
-Actual: Cat  
-Predicted: Cat ✅
+---
+
+
+##📊 Visualization
+-Example prediction on test data:
+-Actual: Cat  
+-Predicted: Cat ✅
 
 
 ---
 
-💫 Author
+##💫 Author
 👩‍💻 Fozia
 📬 Data Science Enthusiast | Machine Learning Learner
 ⭐ If you like this project, don’t forget to give it a star on GitHub!
